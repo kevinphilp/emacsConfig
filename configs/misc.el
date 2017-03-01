@@ -103,6 +103,8 @@
 (add-to-list 'load-path "~/.emacs.d/themes")
 ;;(load-theme 'tomorrow-night-bright t)
 
+(add-hook 'after-init-hook (lambda () (load-theme 'tsdh-light)))
+
 (setq tool-bar-style 'both)
 
 ;; Makes icons reappear

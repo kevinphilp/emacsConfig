@@ -52,7 +52,7 @@
  '(custom-enabled-themes (quote (adwaita)))
  '(custom-safe-themes
    (quote
-    ("9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" default)))
+    ("f7c8df1b9cfd9cfdca4679b0fbd00f1536061d7cb2264b5cbed7a16de629b82b" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" default)))
  '(ecb-options-version "2.40")
  '(font-use-system-font t)
  '(org-agenda-files (quote ("~/Downloads/WorkingDocs/test.org")))
