@@ -1,0 +1,23 @@
+(require 'package) 
+(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t) 
+(package-initialize)
+
+(defvar my-packages '(projectile
+		      outlined-elisp-mode
+                      clojure-mode
+                      cider))
+
+(dolist (p my-packages)
+  (unless (package-installed-p p)
+    (package-install p)))
+
+
+(add-to-list 'load-path "~/.emacs.d/configs")
+(load "misc.el")
+;;(load "cmode.el")
+;;(load "haskell.el")
+;;(load "slime.el")
+(load "auctex-config.el")
+(load "outline.el")
+(load "reftex.el")
+(load "clojure.el")
